@@ -1,0 +1,38 @@
+
+.navbar {
+    width: 100%;
+    height: 95px;
+    position: absolute;
+    top: -3;
+    left: 0px;
+    background-color: #7731CD;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 60px;
+    z-index: 10;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-btn {
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    transition: all 0.3s;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.nav-btn:hover,
+.nav-btn.active {
+    background-color: #ffffff;
+    color: #100A62;
+}

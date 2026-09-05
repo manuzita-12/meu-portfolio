@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.portfolio-container {
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    background-color: #ffffff;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.intro-text {
+    position: absolute;
+    left: 164px;
+    top: 215px;
+    width: 262px;
+    height: 79px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #000000;
+    line-height: 1.2;
+}
+
+.name-text {
+    position: absolute;
+    left: 164px;
+    top: 276px;
+    width: 448px;
+    height: 158px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: #7731CD;
+    line-height: 1.1;
+}
+
+.name-text .dark-text {
+    color: #000000;
+}
+
+.badge-fullstack {
+    position: absolute;
+    left: 151px;
+    top: 498px;
+    width: 421px;
+    height: 46px;
+    background-color: #D0BCEC;
+    border-radius: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.badge-fullstack span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    color: #100A62;
+}
+
+.quote-text {
+    position: absolute;
+    left: 164px;
+    top: 575px;
+    width: 497px;
+    height: 87px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    color: #333333;
+    line-height: 1.5;
+    font-style: normal;
+}
+
+.photo-container {
+    position: absolute;
+    left: 667px;
+    top: 409px;
+    width: 639px;
+    height: 615px;
+}
+
+.purple-circle {
+    width: 639px;
+    height: 615px;
+    background-color: #D0BCEC;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.user-photo {
+    width: 639px;
+    height: 615px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    border-radius: 50%;
+}
+
+.social-card {
+    position:absolute;
+    left: 315px;
+    top: 507px;
+    width: 259px;
+    height: 87px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 3;
+}
+
+.social-icon {
+    width: 57px;
+    height: 57px;
+    object-fit: contain;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
