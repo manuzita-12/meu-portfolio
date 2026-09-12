@@ -1,59 +1,19 @@
-# MeuPortfolio
+#Protótipo de Portfólio Profissional
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.0.4.
+Link do Figma:https://www.figma.com/design/R0RzuQCDuCllBkfemdchzI/Sem-t%C3%ADtulo?node-id=67-48&t=5tFZFcmnY9inrXaZ-1
 
-## Development server
+Capturas de Tela / Imagens:
 
-To start a local development server, run:
+<img width="1073" height="679" alt="WhatsApp Image 2026-09-09 at 19 10 20" src="https://github.com/user-attachments/assets/f878fe63-38c7-4a7a-a9e7-3794efdd4f3b" />
 
-```bash
-ng serve
-```
+<img width="862" height="670" alt="WhatsApp Image 2026-09-09 at 19 10 36" src="https://github.com/user-attachments/assets/7e69b3ca-d276-40b9-8676-2c53b6bf5cd5" />
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+<img width="954" height="675" alt="WhatsApp Image 2026-09-09 at 19 10 27" src="https://github.com/user-attachments/assets/104234cd-b8c5-436a-bacf-c4e6d05b5b71" />
 
-## Code scaffolding
+<img width="857" height="659" alt="WhatsApp Image 2026-09-09 at 19 10 44" src="https://github.com/user-attachments/assets/22302e80-8040-4e7f-a4d9-62713d7ce3ea" />
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Ferramentas Utilizadas: Figma, gemini, GitHub.
 
-```bash
-ng generate component component-name
-```
+Autoria: Emanuelly Gibson Brito
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+links de contato:emanuelly.g.b@aluno.senai.br
