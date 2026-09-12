@@ -1,0 +1,88 @@
+body {
+    font-family: '`Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.container-objetivo {
+    max-width: 1289px;
+    margin: 0 auto;
+    padding: 80px 20px 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-principal {
+    color: #7731CD;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.descricao {
+    width: 100%;
+    max-width: 1289px;
+    font-size: 27px;
+    color: 333333;
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 60px;
+}
+
+.skills-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.skill-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-skill {
+    color: #8A38F5;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.card-skill {
+    width: 339px;
+    height: 374px;
+    background-color: rgba(138, 56, 245, 0.17);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease, box shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.card-skill:hover {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0,08);
+}
+
+.text-card {
+    width: 100%;
+    max-width: 300px;
+    font-size: 20px;
+    line-height: 1.8;
+    color: #000000;
+    margin: 0;
+    text-align: left;
+}
+
+.texto-soft {
+    text-align: left;
+}
